@@ -1,0 +1,32 @@
+/* Apply a black background color to both header and footer */
+header, footer {
+  background-color: #111; /* Black background */
+  color: #fff; /* White text */
+  padding: 1rem; /* Padding for spacing */
+  text-align: center; /* Center the text */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #222; /* A very dark gray background for the body */
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  background-color: #333; /* Slightly lighter dark gray for sections */
+  padding: 1rem;
+}
+
+h1, h2 {
+  margin: 0.5rem 0;
+}
+
+p {
+  color: #eee; /* Soft white for readability */
+}
