@@ -47,7 +47,7 @@ section {
     padding: 1rem;
     background-color: #222; /* slightly lighter dark */
     border-left: 4px solid transparent;
-    background-image: linear-gradient(to right, var(--gold), #d4af37, var(--gold));
+    background-image: url('gold-textured-background2.jpg');
     background-repeat: no-repeat;
     background-size: 4px 100%;
     background-position: left center;
