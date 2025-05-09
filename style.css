@@ -23,18 +23,18 @@ main {
 }
 
 header {
-    background-color: #000; /* true black like footer */
-    color: var(--gold); /* back to gold text */
+    background: url('abstract-dark-gray-grunge-background-texture.jpg') center/cover no-repeat;
+    color: var(--gold); /* Or white if contrast is better */
     padding: 1rem;
     text-align: center;
 }
 
 footer {
-    background-color: #000; /* true black */
-    color: var(--gold); /* gold text */
-    padding : 1rem;
+    background: url('abstract-dark-gray-grunge-background-texture.jpg') center/cover no-repeat;
+    color: var(--gold);
+    padding: 1rem;
     text-align: center;
-    border-bottom: 1px solid #444; /* subtle divider */
+    border-bottom: 1px solid #444;
 }
 
 section {
