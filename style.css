@@ -22,15 +22,14 @@ main {
     padding: 2rem;
 }
 
-header {
+/* Texture wrapper applies the shared background */
+.texture-wrapper {
     background: url('abstract-dark-gray-grunge-background-texture.jpg') center/cover no-repeat;
-    color: var(--gold); /* Or white if contrast is better */
-    padding: 1rem;
-    text-align: center;
 }
 
-footer {
-    background: url('abstract-dark-gray-grunge-background-texture.jpg') center/cover no-repeat;
+/* Make header/footer backgrounds transparent so the texture shows through */
+header, footer {
+    background: transparent;
     color: var(--gold);
     padding: 1rem;
     text-align: center;
