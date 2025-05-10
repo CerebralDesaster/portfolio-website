@@ -64,3 +64,11 @@ section h2 {
 #contact a:hover {
   text-decoration: underline;
 }
+
+footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #555;
+}
