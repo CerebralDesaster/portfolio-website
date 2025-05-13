@@ -130,6 +130,27 @@ nav li {
   margin: 10px 0;
 }
 
+.testimonial {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px auto;
+  border-left: 4px solid #007acc;
+  max-width: 800px;
+}
+
+.testimonial blockquote {
+  margin: 0;
+  font-style: italic;
+  color: #333;
+}
+
+.testimonial .author {
+  margin-top: 10px;
+  text-align: right;
+  font-weight: bold;
+  color: #007acc;
+}
+
 @media (min-width: 768px) {
   nav ul {
     flex-direction: row;
