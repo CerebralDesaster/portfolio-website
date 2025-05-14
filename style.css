@@ -209,6 +209,12 @@ nav li {
   text-decoration: underline;
 }
 
+/* 404 Styling */
+main section p a {
+  color: #007acc;
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
   nav ul {
     flex-direction: row;
